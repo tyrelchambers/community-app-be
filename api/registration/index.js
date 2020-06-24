@@ -10,7 +10,7 @@ app.post('/register', authHandler, async (req, res, next) => {
       password
     } = req.body;
 
-    
+    console.log(email, password)
   } catch (error) {
     next(error)
   }

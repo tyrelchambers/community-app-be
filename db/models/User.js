@@ -31,7 +31,8 @@ const User = sequelize.define('User', {
   },
   facebook: DataTypes.STRING,
   twitter: DataTypes.STRING,
-  instagram: DataTypes.STRING
+  instagram: DataTypes.STRING,
+  profileImg: DataTypes.STRING
 }, {
   timestamps: false
 })

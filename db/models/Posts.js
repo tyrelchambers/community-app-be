@@ -1,4 +1,4 @@
-import { DataTypes } from 'sequelize'
+import { DataTypes, Deferrable } from 'sequelize'
 import sequelize from '../index.js'
 import Page from './Page'
 
